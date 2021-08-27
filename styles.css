@@ -1,0 +1,31 @@
+/* descendants */
+#demo-false p {
+    font-family: monospace;
+    font-size: 2rem;
+    color: violet;
+
+}
+
+/* immediate-descendants */
+#demo-false > p {
+    font-family: monospace;
+    font-size: 2rem;
+    color: violet;
+
+}
+
+/* sibling-immediate */
+#demo-false + p {
+    font-family: monospace;
+    font-size: 2rem;
+    color: violet;
+
+}
+
+/* siblings */
+#demo ~ p {
+    font-family: monospace;
+    font-size: 2rem;
+    color: violet;
+
+}
